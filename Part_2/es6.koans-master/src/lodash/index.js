@@ -7,6 +7,7 @@
 ** @param {array}
 ** @return
 **/function identity(value){
+    this.add(value);
 }
 
 

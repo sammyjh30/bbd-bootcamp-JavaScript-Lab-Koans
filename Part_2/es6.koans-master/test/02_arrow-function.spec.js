@@ -186,7 +186,7 @@ describe('Arrow function', () => {
         printFruits: function () {
 
           // TODO Modify the function below to satisfy all the assertions below. '.bind' usage is forbidden
-          const printFruits = function (fruit) {
+          const printFruits = (fruit) => {
             return this.owner + " bought " + fruit;
           };
           return this.fruits.map(printFruits);
